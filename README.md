@@ -1,3 +1,2 @@
-# Docker in AWS Todobackend Sample Application
-
-This repository provides a sample application based upon the [Todo-backend project](https://www.todobackend.com).
+## Application cloned from docker-in-aws
+https://github.com/docker-in-aws/docker-in-aws/tree/master/ch5/todobackend
