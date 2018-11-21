@@ -6,7 +6,7 @@ version:
 	@ echo '{"Version": "$(APP_VERSION)"}'
 
 login:
-	$$(aws ecr get-login --no-include-email)
+	$$(aws ecr get-login --no-include-email --profile docker-in-aws)
 
 logout:
 	docker logout https://848728422800.dkr.ecr.us-east-1.amazonaws.com
